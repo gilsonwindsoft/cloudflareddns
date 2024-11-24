@@ -1,0 +1,24 @@
+{
+  "name": "cloudflareddns",
+  "version": "1.0.0",
+  "description": "This script monitore and updates your public IP using cloudflare API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilsonwindsoft/cloudflareddns.git"
+  },
+  "author": "Gilson Carmo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilsonwindsoft/cloudflareddns/issues"
+  },
+  "homepage": "https://github.com/gilsonwindsoft/cloudflareddns#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
